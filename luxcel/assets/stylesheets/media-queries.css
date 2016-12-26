@@ -1,0 +1,155 @@
+@media screen and (max-width: 950px){
+		.wrapper {
+			width: 95%;
+		}
+		.banner {
+			padding-top: 74px;
+		}
+		.banner h1 {
+			top: 31px;
+			left: 100px;
+			font-size: 25px;
+		}
+		.menu {
+			padding-left: 25%;
+			padding-right: 2%;
+		}
+		.menu li a {
+			font-size: 100%;
+			padding: 5px 8px;
+		}
+		.layout {
+			background: -webkit-gradient(
+			linear,
+			left top,
+			right top,
+			color-stop(0, #e7e6ef),
+			color-stop(25%, #e7e6ef),
+			color-stop(25%, #fff),
+			color-stop(100%, #fff)
+			);
+			background: -webkit-linear-gradient(
+			left,
+			#e7e6ef,
+			#e7e6ef 25%,
+			#fff 25%,
+			#fff 100%
+			);
+		}
+		.content {
+			width: 70%;
+			margin-left: 27%;
+		}
+		.content p {
+			margin-bottom: 20px;
+		}
+		.last {
+			padding-bottom: 25px;
+		}
+		.sidebar {
+			width: 25%;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			width: auto\9;
+		}
+		footer {
+			width: 95%;
+		}
+}
+
+@media screen and (max-width: 790px) {
+	.logo-header {
+		height: 32px;
+		width: 127px;
+	}
+	.banner h1 {
+		font-size: 22px;
+	}
+	.menu {
+		padding-left: 15%;
+		padding-right: 2%;
+	}
+	.content h2 {
+		margin-bottom: 20px;
+	}
+	.content p {
+		margin-bottom: 15px;
+	}
+	.avatar {
+		padding-right: 15px;
+	}
+}	
+
+@media screen and (max-width: 700px) {
+	header {
+		padding-left: 15px;
+		padding-right: 10px;
+	}
+	.banner h1 {
+		top: 28px;
+		left: 70px;
+		font-size: 22px;
+	}
+	.menu {
+		padding-left: 7px;
+		margin-bottom: 2px;
+	}
+	.menu li a {
+		padding: 5px 5px;
+	}
+	.layout {
+		background: #fff;
+	}
+	.sidebar {
+		float: none;
+		width: auto;
+		background: #fff;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 5px;
+	}
+	.sidebar ul {
+		margin-left: 0;
+		border-bottom: 1px solid #000;
+		padding-bottom: 10px;
+	}
+	.sidebar li {
+		background: url(../images/arrow-bullet.png) 0 55% no-repeat;
+		margin-left: 3px;
+		padding-left: 10px;
+		display: inline-block;	
+	}
+	.sidebar a {
+		padding: 0;
+		background: none;
+		display: inline-block;
+	}
+	.sidebar li:first-child {
+		background: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.sidebar a:hover {
+		text-decoration: none;
+	}
+	.upper-sidebar {
+		background: none;
+		margin-bottom: 5px;
+		height: 25px;
+	}
+	.upper-sidebar h3 {
+		padding-left: 0;
+		color: #000;
+	}
+	.content {
+		width: auto;
+		margin-left: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 640px) {
+	
+}
